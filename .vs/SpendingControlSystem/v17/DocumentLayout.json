@@ -1,0 +1,838 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\costcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\costcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\migrations\\20241213043207_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\migrations\\20241213043207_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\costcategorymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\costcategorymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\budgetmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\budgetmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\spendingcontrolsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\spendingcontrolsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\costcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\costcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213040825_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpendingControlSystem\\Migrations\\20241213040825_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\paymenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\paymenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\monthlyreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\monthlyreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\investmenttransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\investmenttransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\financialgoalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\financialgoalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\investmenttransactionmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\investmenttransactionmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\scs_controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\scs_controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\cost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\cost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\costcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\costcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\financialgoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\financialgoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\iauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\iauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\investment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\investment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\investmenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\investmenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\monthlyreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\monthlyreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\costmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\costmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\financialgoalmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\financialgoalmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\incomemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\incomemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\investmentmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\investmentmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\monthlyreportmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\monthlyreportmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\data\\map\\paymenttypemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\data\\map\\paymenttypemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213010210_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpendingControlSystem\\Migrations\\20241213010210_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\monthlyreportrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\monthlyreportrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\investmenttransactionrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\investmenttransactionrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\investmentrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\investmentrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\incomerequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\incomerequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\userrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\userrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\financialgoalrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\financialgoalrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\costrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\costrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\viewmodels\\budgetrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\viewmodels\\budgetrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\spendingcontrolsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\spendingcontrolsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241119172101_FistMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpendingControlSystem\\Migrations\\20241119172101_FistMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241119171701_FixingRelationshipEntities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpendingControlSystem\\Migrations\\20241119171701_FixingRelationshipEntities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|c:\\users\\gabriel.lara\\source\\repos\\spendingcontrolsystem\\spendingcontrolsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{971B3C96-C0DD-489F-84C7-E567B48E0FD3}|SpendingControlSystem\\SpendingControlSystem.csproj|solutionrelative:spendingcontrolsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241101150332_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpendingControlSystem\\Migrations\\20241101150332_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241213043207_InitialDB.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213043207_InitialDB.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Migrations\\20241213043207_InitialDB.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213043207_InitialDB.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Migrations\\20241213043207_InitialDB.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T04:32:07.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CostController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\CostController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\CostController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\CostController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\CostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:43:59.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpendingControlSystemDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\SpendingControlSystemDBContext.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\SpendingControlSystemDBContext.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\SpendingControlSystemDBContext.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\SpendingControlSystemDBContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:33:57.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BudgetMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\BudgetMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\BudgetMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\BudgetMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\BudgetMap.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:39:51.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CostCategoryMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\CostCategoryMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\CostCategoryMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\CostCategoryMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\CostCategoryMap.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:42:02.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\UserMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\UserMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\UserMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\UserMap.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwCwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:39:33.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CostCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\CostCategoryController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\CostCategoryController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\CostCategoryController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\CostCategoryController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:42:27.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\BudgetController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\BudgetController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\BudgetController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:09:39.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Program.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Program.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T17:59:57.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\appsettings.json",
+              "RelativeToolTip": "SpendingControlSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T16:19:33.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241213040825_InitialDB.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213040825_InitialDB.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Migrations\\20241213040825_InitialDB.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213040825_InitialDB.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Migrations\\20241213040825_InitialDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T04:08:25.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\PaymentTypeController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\PaymentTypeController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\PaymentTypeController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\PaymentTypeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:18:23.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MonthlyReportController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\MonthlyReportController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\MonthlyReportController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\MonthlyReportController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\MonthlyReportController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:53:38.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvestmentController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\InvestmentController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\InvestmentController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\InvestmentController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\InvestmentController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:49:57.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\UserController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\UserController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAIQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:35:22.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InvestmentTransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\InvestmentTransactionController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\InvestmentTransactionController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\InvestmentTransactionController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\InvestmentTransactionController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwIEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:51:44.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FinancialGoalController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\FinancialGoalController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\FinancialGoalController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\FinancialGoalController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\FinancialGoalController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:46:52.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InvestmentTransactionMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\InvestmentTransactionMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\InvestmentTransactionMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\InvestmentTransactionMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\InvestmentTransactionMap.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:46:23.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IncomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\IncomeController.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SCS_Controllers\\IncomeController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SCS_Controllers\\IncomeController.cs",
+              "RelativeToolTip": "SpendingControlSystem\\SCS_Controllers\\IncomeController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwDEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:48:39.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Budget.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\Budget.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Budget.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\Budget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:42:12.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cost.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Cost.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\Cost.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Cost.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\Cost.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:43:25.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CostCategory.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\CostCategory.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\CostCategory.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\CostCategory.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\CostCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:43:41.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FinancialGoal.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\FinancialGoal.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\FinancialGoal.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\FinancialGoal.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\FinancialGoal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:44:00.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\Entity.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Entity.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:12:44.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAuditable.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\IAuditable.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\IAuditable.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\IAuditable.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\IAuditable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:09:00.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Income.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Income.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\Income.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Income.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\Income.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:44:10.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Investment.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Investment.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\Investment.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\Investment.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\Investment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:44:27.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InvestmentTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\InvestmentTransaction.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\InvestmentTransaction.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\InvestmentTransaction.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\InvestmentTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:44:43.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\PaymentType.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\PaymentType.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\PaymentType.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\PaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:45:25.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MonthlyReport.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\MonthlyReport.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\MonthlyReport.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\MonthlyReport.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\MonthlyReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:45:07.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Entities\\User.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Entities\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:41:57.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CostMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\CostMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\CostMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\CostMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\CostMap.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:40:26.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FinancialGoalMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\FinancialGoalMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\FinancialGoalMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\FinancialGoalMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\FinancialGoalMap.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:44:05.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IncomeMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\IncomeMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\IncomeMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\IncomeMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\IncomeMap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:44:33.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InvestmentMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\InvestmentMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\InvestmentMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\InvestmentMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\InvestmentMap.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:45:55.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MonthlyReportMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\MonthlyReportMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\MonthlyReportMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\MonthlyReportMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\MonthlyReportMap.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:47:45.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PaymentTypeMap.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\PaymentTypeMap.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Data\\Map\\PaymentTypeMap.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Data\\Map\\PaymentTypeMap.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Data\\Map\\PaymentTypeMap.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:48:29.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241213010210_InitialDB.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213010210_InitialDB.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Migrations\\20241213010210_InitialDB.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241213010210_InitialDB.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Migrations\\20241213010210_InitialDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:02:10.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MonthlyReportRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\MonthlyReportRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\MonthlyReportRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\MonthlyReportRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\MonthlyReportRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:57:06.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InvestmentTransactionRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\InvestmentTransactionRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\InvestmentTransactionRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\InvestmentTransactionRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\InvestmentTransactionRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:56:35.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InvestmentRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\InvestmentRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\InvestmentRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\InvestmentRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\InvestmentRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:56:29.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IncomeRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\IncomeRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\IncomeRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\IncomeRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\IncomeRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:56:19.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\UserRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\UserRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\UserRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\UserRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:37:43.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FinancialGoalRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\FinancialGoalRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\FinancialGoalRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\FinancialGoalRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\FinancialGoalRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:56:11.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CostRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\CostRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\CostRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\CostRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\CostRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:38:49.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BudgetRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\BudgetRequestViewModel.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\ViewModels\\BudgetRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\ViewModels\\BudgetRequestViewModel.cs",
+              "RelativeToolTip": "SpendingControlSystem\\ViewModels\\BudgetRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:36:47.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SpendingControlSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SpendingControlSystem.csproj",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\SpendingControlSystem.csproj",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\SpendingControlSystem.csproj",
+              "RelativeToolTip": "SpendingControlSystem\\SpendingControlSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T18:47:30.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20241119172101_FistMigration.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241119172101_FistMigration.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Migrations\\20241119172101_FistMigration.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241119172101_FistMigration.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Migrations\\20241119172101_FistMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:21:01.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20241119171701_FixingRelationshipEntities.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241119171701_FixingRelationshipEntities.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Migrations\\20241119171701_FixingRelationshipEntities.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241119171701_FixingRelationshipEntities.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Migrations\\20241119171701_FixingRelationshipEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:17:01.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\appsettings.Development.json",
+              "RelativeToolTip": "SpendingControlSystem\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T14:11:48.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20241101150332_InitialDB.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241101150332_InitialDB.cs",
+              "RelativeDocumentMoniker": "SpendingControlSystem\\Migrations\\20241101150332_InitialDB.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\source\\repos\\SpendingControlSystem\\SpendingControlSystem\\Migrations\\20241101150332_InitialDB.cs",
+              "RelativeToolTip": "SpendingControlSystem\\Migrations\\20241101150332_InitialDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T15:03:32.172Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

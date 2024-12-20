@@ -1,0 +1,892 @@
+[
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.BudgetController",
+    "Method": "AddBudget",
+    "RelativePath": "api/Budget",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "budgetViewModel",
+        "Type": "SpendingControlSystem.ViewModels.BudgetRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.BudgetController",
+    "Method": "DeleteBudget",
+    "RelativePath": "api/Budget/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.BudgetController",
+    "Method": "GetBudgets",
+    "RelativePath": "api/Budget/GetAllBudgets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.Budget, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.BudgetController",
+    "Method": "GetBudgetById",
+    "RelativePath": "api/Budget/GetBudgetBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.BudgetController",
+    "Method": "UpdateBudget",
+    "RelativePath": "api/Budget/UpdateBudgetBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "budgetRequest",
+        "Type": "SpendingControlSystem.ViewModels.BudgetRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostController",
+    "Method": "AddCost",
+    "RelativePath": "api/Cost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "costViewModel",
+        "Type": "SpendingControlSystem.ViewModels.CostRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostController",
+    "Method": "DeleteCost",
+    "RelativePath": "api/Cost/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostController",
+    "Method": "GetCosts",
+    "RelativePath": "api/Cost/GetAllCosts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.Cost, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostController",
+    "Method": "GetCostById",
+    "RelativePath": "api/Cost/GetCostBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostController",
+    "Method": "UpdateCost",
+    "RelativePath": "api/Cost/UpdateCostBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "costRequest",
+        "Type": "SpendingControlSystem.ViewModels.CostRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostCategoryController",
+    "Method": "AddCostCategory",
+    "RelativePath": "api/CostCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryViewModel",
+        "Type": "SpendingControlSystem.ViewModels.CostCategoryRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostCategoryController",
+    "Method": "DeleteCostCategory",
+    "RelativePath": "api/CostCategory/DeleteCostCategoryBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostCategoryController",
+    "Method": "GetCostCateroys",
+    "RelativePath": "api/CostCategory/GetAllCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.CostCategory, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostCategoryController",
+    "Method": "GetCostCategoryById",
+    "RelativePath": "api/CostCategory/GetCostCategoryBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.CostCategoryController",
+    "Method": "UpdateCostCategory",
+    "RelativePath": "api/CostCategory/UpdateCostCategoryBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "costCategoryRequest",
+        "Type": "SpendingControlSystem.ViewModels.CostCategoryRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.FinancialGoalController",
+    "Method": "AddFinancialGoal",
+    "RelativePath": "api/FinancialGoal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "goalViewModel",
+        "Type": "SpendingControlSystem.ViewModels.FinancialGoalRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.FinancialGoalController",
+    "Method": "DeleteFinancialGoal",
+    "RelativePath": "api/FinancialGoal/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.FinancialGoalController",
+    "Method": "GetGoals",
+    "RelativePath": "api/FinancialGoal/GetAllFinancialGoals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.FinancialGoal, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.FinancialGoalController",
+    "Method": "GetFinancialGOalById",
+    "RelativePath": "api/FinancialGoal/GetFinancialGoalBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.FinancialGoalController",
+    "Method": "UpdateFinancialGoal",
+    "RelativePath": "api/FinancialGoal/UpdateFinancialGoalBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "financialGoalRequest",
+        "Type": "SpendingControlSystem.ViewModels.FinancialGoalRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.IncomeController",
+    "Method": "AddIncome",
+    "RelativePath": "api/Income",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeViewModel",
+        "Type": "SpendingControlSystem.ViewModels.IncomeRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.IncomeController",
+    "Method": "DeleteIncome",
+    "RelativePath": "api/Income/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.IncomeController",
+    "Method": "GetIncomes",
+    "RelativePath": "api/Income/GetAllIncomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.Income, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.IncomeController",
+    "Method": "GetIncomeById",
+    "RelativePath": "api/Income/GetIncomeBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.IncomeController",
+    "Method": "UpdateIncome",
+    "RelativePath": "api/Income/UpdateIncomeBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "incomeRequest",
+        "Type": "SpendingControlSystem.ViewModels.IncomeRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentController",
+    "Method": "AddInvestment",
+    "RelativePath": "api/Investment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentViewModel",
+        "Type": "SpendingControlSystem.ViewModels.InvestmentRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentController",
+    "Method": "DeleteInvestment",
+    "RelativePath": "api/Investment/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentController",
+    "Method": "GetInvestments",
+    "RelativePath": "api/Investment/GetAllInvestments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.Investment, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentController",
+    "Method": "GetInvestmentById",
+    "RelativePath": "api/Investment/GetInvestmentBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentController",
+    "Method": "UpdateInvestment",
+    "RelativePath": "api/Investment/UpdateInvestmentBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "investmentRequest",
+        "Type": "SpendingControlSystem.ViewModels.InvestmentRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentTransactionController",
+    "Method": "AddTransaction",
+    "RelativePath": "api/InvestmentTransaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionViewModel",
+        "Type": "SpendingControlSystem.ViewModels.InvestmentTransactionRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentTransactionController",
+    "Method": "DeleteInvestmentTransaction",
+    "RelativePath": "api/InvestmentTransaction/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentTransactionController",
+    "Method": "GetInvestmentTransaction",
+    "RelativePath": "api/InvestmentTransaction/GetAllTransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.InvestmentTransaction, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentTransactionController",
+    "Method": "GetInvestmentTransactionById",
+    "RelativePath": "api/InvestmentTransaction/GetInvestmentTransactionBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.InvestmentTransactionController",
+    "Method": "UpdateInvestmentTransaction",
+    "RelativePath": "api/InvestmentTransaction/UpdateInvestmentTransactionBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "transactionRequest",
+        "Type": "SpendingControlSystem.ViewModels.InvestmentTransactionRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.MonthlyReportController",
+    "Method": "AddMonthlyReport",
+    "RelativePath": "api/MonthlyReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monthlyReportViewModel",
+        "Type": "SpendingControlSystem.ViewModels.MonthlyReportRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.MonthlyReportController",
+    "Method": "DeleteMonthlyReport",
+    "RelativePath": "api/MonthlyReport/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.MonthlyReportController",
+    "Method": "GetMonthlyReports",
+    "RelativePath": "api/MonthlyReport/GetAllMonthlyReports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.MonthlyReport, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.MonthlyReportController",
+    "Method": "GetMonthlyReportById",
+    "RelativePath": "api/MonthlyReport/GetMonthlyReportBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.MonthlyReportController",
+    "Method": "UpdateMonthlyReport",
+    "RelativePath": "api/MonthlyReport/UpdateMonthlyReportBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "monthlyReportRequest",
+        "Type": "SpendingControlSystem.ViewModels.MonthlyReportRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.PaymentTypeController",
+    "Method": "AddPaymentType",
+    "RelativePath": "api/PaymentType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentTypeViewModel",
+        "Type": "SpendingControlSystem.ViewModels.PaymentTypeRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.PaymentTypeController",
+    "Method": "DeletePaymentType",
+    "RelativePath": "api/PaymentType/DeletePaymentTypeBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.PaymentTypeController",
+    "Method": "GetPaymentTypes",
+    "RelativePath": "api/PaymentType/GetAllCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.PaymentType, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.PaymentTypeController",
+    "Method": "GetPaymentTypeById",
+    "RelativePath": "api/PaymentType/GetPaymentTypeBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.PaymentTypeController",
+    "Method": "UpdatePaymentType",
+    "RelativePath": "api/PaymentType/UpdatePaymentTypeBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paymentTypeRequest",
+        "Type": "SpendingControlSystem.ViewModels.PaymentTypeRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userViewModel",
+        "Type": "SpendingControlSystem.ViewModels.UserRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/DeleteBy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SpendingControlSystem.Entities.User, SpendingControlSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/GetUserBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpendingControlSystem.SCS_Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/UpdateUserBy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userRequest",
+        "Type": "SpendingControlSystem.ViewModels.UserRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

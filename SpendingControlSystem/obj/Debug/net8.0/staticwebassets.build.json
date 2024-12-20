@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "u+zkSyxjSMHVjqaM6dbm/aNRXigXu27XjqLs1riN8Uk=",
+  "Source": "SpendingControlSystem",
+  "BasePath": "_content/SpendingControlSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
